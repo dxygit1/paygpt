@@ -67,6 +67,13 @@ export default function Home() {
         </div>
 
         <div className="card" style={{ marginBottom: '24px' }}>
+          <div style={{ backgroundColor: 'rgba(56, 189, 248, 0.1)', border: '1px solid rgba(56, 189, 248, 0.2)', padding: '12px 16px', borderRadius: '8px', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+            <span style={{ fontSize: '20px' }}>💬</span>
+            <span style={{ fontSize: '14px', color: 'var(--text-primary)', lineHeight: '1.5' }}>
+              如有任何问题可加微信：<strong style={{ color: 'var(--primary)', userSelect: 'all' }}>dongxy-tx</strong> 联系我（长期做）
+            </span>
+          </div>
+
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '20px' }}>
             <span style={{ fontSize: '24px' }}>🔐</span>
             <h3 style={{ fontSize: '18px', fontWeight: '600' }}>如何获取 Token?</h3>
@@ -187,6 +194,20 @@ export default function Home() {
               请务必确认您的 ChatGPT Plus 订阅已经到期或从未充值过，否则无法进行充值。
               如果您的订阅仍在有效期内，请等待到期后再购买。
             </p>
+          </div>
+        </div>
+
+        <div className="card" style={{ marginTop: '24px', textAlign: 'center', padding: '20px' }}>
+          <h3 style={{ fontSize: '16px', fontWeight: '600', marginBottom: '12px' }}>联系我们</h3>
+          <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', fontSize: '14px', color: 'var(--text-secondary)' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <span>📱</span>
+              <span>微信: <strong>dongxy-tx</strong></span>
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <span>✉️</span>
+              <span>邮箱: <a href="mailto:dxysy1@gmail.com" style={{ color: 'var(--primary)', textDecoration: 'none' }}><strong>dxysy1@gmail.com</strong></a></span>
+            </div>
           </div>
         </div>
       </main>
